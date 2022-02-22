@@ -1,0 +1,65 @@
+:root {
+    --color-blue: #48C5CE;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+    background-color: var(--color-blue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+header > h1 {
+    font-size: 26px;
+}
+
+main {
+    color: white;
+    padding: 20px;
+    background-image: url('../imagens/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    background-color: rgba(255, 255, 255, 0.61);
+    max-width: 230px;
+    padding: 20px;
+    float: right;
+   
+}
+
+.marginB {
+    margin-bottom: 15px;
+}
+
+input,select { 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 5px;
+   
+}
+
+input[type = "submit"] {
+    background-color: var(--color-blue);
+    color: white;
+    font-weight: bold;
+}
