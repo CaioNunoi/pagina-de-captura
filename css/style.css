@@ -45,6 +45,13 @@ main {
    
 }
 
+@media screen and (max-width: 500px) {
+    .formContainer {
+        background-color: rgba(255, 255, 255, 0.61);
+        max-width: 100%;
+        padding: 20px;
+    }
+}
 .marginB {
     margin-bottom: 15px;
 }
@@ -62,4 +69,56 @@ input[type = "submit"] {
     background-color: var(--color-blue);
     color: white;
     font-weight: bold;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer {
+   text-align: center;
+   padding: 40px;
+   background-color:#202121;
+   max-width: px;
+   margin: auto;
+}
+
+
+.footerBox {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 20px;
+    text-align: left;
+}
+.footerBox > h3 , p {
+    margin-bottom: 20px;
+    
+}
+
+.footerBox > h3 {
+    font-size: 24px;
+}
+
+.foto {
+    width: 160px;
+}
+
+@media screen and (max-width: 500px) {
+    .foto {
+        width: 160px;
+        float: left;
+    }
+
+    .footerBox > h3 , p  {
+        
+        
+    }
 }
